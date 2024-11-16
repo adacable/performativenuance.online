@@ -1,0 +1,123 @@
+/* http://meyerweb.com/eric/tools/css/reset/  v2.0 | 20110126 License: none (public domain) */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+
+body { line-height: 1; }
+
+ol, ul { list-style: none; }
+
+blockquote, q { quotes: none; }
+
+blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+@font-face { font-family: 'Futura'; src: url("/assets/css/subset-FuturaLT-Heavy.woff2") format("woff2"), url("/assets/css/subset-FuturaLT-Heavy.woff") format("woff"); font-weight: 900; font-style: normal; font-display: swap; }
+
+@font-face { font-family: 'Futura'; src: url("/assets/css/subset-FuturaLT.woff2") format("woff2"), url("/assets/css/subset-FuturaLT.woff") format("woff"); font-weight: 500; font-style: normal; font-display: swap; }
+
+@font-face { font-family: 'Futura'; src: url("/assets/css/subset-FuturaLT-HeavyOblique.woff2") format("woff2"), url("/assets/css/subset-FuturaLT-HeavyOblique.woff") format("woff"); font-weight: 900; font-style: italic; font-display: swap; }
+
+@font-face { font-family: 'Futura'; src: url("/assets/css/subset-FuturaLT-Oblique.woff2") format("woff2"), url("/assets/css/subset-FuturaLT-Oblique.woff") format("woff"); font-weight: 500; font-style: italic; font-display: swap; }
+
+@font-face { font-family: 'Garamond'; src: url("/assets/css/subset-GaramondPremrPro-Bd.woff2") format("woff2"), url("/assets/css/subset-GaramondPremrPro-Bd.woff") format("woff"); font-weight: bold; font-style: normal; font-display: swap; }
+
+@font-face { font-family: 'Garamond'; src: url("/assets/css/subset-GaramondPremrPro.woff2") format("woff2"), url("/assets/css/subset-GaramondPremrPro.woff") format("woff"); font-weight: normal; font-style: normal; font-display: swap; }
+
+@font-face { font-family: 'Garamond'; src: url("/assets/css/subset-GaramondPremrPro-BdIt.woff2") format("woff2"), url("/assets/css/subset-GaramondPremrPro-BdIt.woff") format("woff"); font-weight: bold; font-style: italic; font-display: swap; }
+
+@font-face { font-family: 'Garamond'; src: url("/assets/css/subset-GaramondPremrPro-It.woff2") format("woff2"), url("/assets/css/subset-GaramondPremrPro-It.woff") format("woff"); font-weight: normal; font-style: italic; font-display: swap; }
+
+body { margin: 0.5em auto; padding: 0 1em; display: block; font-size: 18pt; line-height: 130%; font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif; max-width: 35em; }
+
+a { color: black; }
+
+a:visited { color: black; }
+
+blockquote { padding-left: 1em; font-style: italic; }
+
+ul { list-style: disc; padding-bottom: 1em; }
+
+ul ul { padding: 0; }
+
+li { margin-left: 1em; }
+
+h1 { font-size: 200%; }
+
+h2 { font-size: 120%; }
+
+h1, h2, h3 { font-family: Futura, "Trebuchet MS", Arial, sans-serif; font-weight: light; }
+
+h1, h2, h3, h4 { padding: 1em 0; line-height: 130%; }
+
+p { padding-bottom: 1em; }
+
+header a { font-family: Futura, "Trebuchet MS", Arial, sans-serif; text-decoration: none; font-weight: lighter; }
+
+header nav { font-family: Futura, "Trebuchet MS", Arial, sans-serif; }
+
+footer { margin-top: 2em; }
+
+nav ul { padding: 0; }
+
+nav ul li { display: inline-block; }
+
+.posts-index { padding: 0; padding-top:3em }
+
+.post-index { font-family: Futura, Helvetica; list-style: none; font-weight: lighter; padding-bottom: 1em; margin: 0; }
+
+.post-index a { display: inline-block; padding-left: 6.7em; }
+
+.post-index-date { display: inline-block; width: 0; float: left; top: 0; }
+
+em { font-style: italic; }
+
+.site-description { font-size: 1.5em; line-height: 130%; font-style: italic; }
+
+nav.tags { display: inline; }
+
+nav.tags ul { display: inline; padding: 0; }
+
+nav.tags ul li { display: inline; margin: 0; }
+
+nav.tags ul li::after { content: ", "; }
+
+nav.tags ul li:nth-last-child(2)::after { content: " "; }
+
+nav.tags ul li:last-child::after { content: ""; }
+
+nav.tags ul li:last-child::before { content: "and "; }
+
+strong { font-weight: bold; }
+
+.footnotes ol { list-style: decimal; }
+
+sup { vertical-align: super; font-size: smaller; }
+
+sup a { text-decoration: none; }
+
+ol { list-style: decimal; }
+
+/*# sourceMappingURL=main.css.map */
+/*
+     FILE ARCHIVED ON 15:59:55 Dec 08, 2022 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 13:50:54 Nov 16, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.505
+  exclusion.robots: 0.038
+  exclusion.robots.policy: 0.028
+  esindex: 0.01
+  cdx.remote: 6.749
+  LoadShardBlock: 130.992 (3)
+  PetaboxLoader3.datanode: 82.579 (5)
+  load_resource: 162.696 (2)
+  PetaboxLoader3.resolve: 96.642 (2)
+*/
